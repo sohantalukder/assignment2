@@ -1,0 +1,117 @@
+/**header file unoder list css**/
+.a ul
+{
+	background-color: #254117;
+	color : white;
+list-style: none;
+display: flex;
+padding-left: 0px;
+font-size: 17px;
+    justify-content: space-between;
+    text-transform: uppercase
+    
+}
+
+
+/**list design**/
+.a ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+/** using for over effect**/
+.a ul li:hover
+{ 
+	background-color: #2B1B17;
+ }
+
+
+/**header decoration**/
+.a ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 0px 10px;
+}
+
+
+
+/**for justify and flexing**/
+.b{
+    display: flex
+        text-align:justify;
+}
+
+
+/** coloring**/
+#y{
+    color: blueviolet;}
+
+
+/**designing**/
+.c{
+
+background-color: coral;
+    float: left
+
+}
+
+/**desining**/
+.x{
+    background-color: #B6B6B4;
+    font-size: 15px;
+}
+
+
+/** image designing**/
+.d ul
+{
+list-style: none;
+display:flex;
+padding-left: 0px;
+    justify-content: space-between;
+    float: right}
+
+
+.e ul
+{
+list-style: none;
+display:flex;
+padding-left: 0px;
+    justify-content: space-between;
+    float: right}
+.f ul
+{
+list-style: none;
+display:flex;
+padding-left: 0px;
+    justify-content: space-between;
+    float: right}
+
+
+/** using footer design**/
+.o{
+    background-color: sandybrown;
+    text-align: center
+}
+
+
+
+/** using for easily the full screen by any device with those range**/
+
+@media only screen and (max-width: 399px)
+
+    {
+
+    }
+
+@media only screen and (min-width: 401px) and (max-width: 750px)
+     {
+
+     }
+@media only screen and (min-width: 751px)
+     
+     {
+
+     }
